@@ -1,0 +1,77 @@
+/* 
+  CSE183 Assignment 2
+
+  CSS for Stretch Requirement using two or all of the following:
+
+    Gradients
+    Transtitions
+    Animations
+
+  Partial credit for using just one.
+*/
+
+body {
+  background-image: radial-gradient( #e66454, #9198e3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 98vh;
+  overflow: hidden;
+}
+
+.curve p{
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  height: 23em;
+  width: 15em;
+  left: 31%;
+  top: 11%;
+  transform-origin: bottom center;
+  font-size: 27pt;
+  font-weight: bolder;
+}
+
+#c{
+  transform: rotate(-50deg);
+  animation-direction: alternate-reverse;
+  animation: upDown 2s ease-out 5 ;
+}
+#s{
+  transform: rotate(-30deg);
+  animation-direction: alternate-reverse;
+  animation: upDown 3s ease-out 5 ;
+
+}
+#e{
+  transform: rotate(-10deg);
+  animation-direction: alternate-reverse;
+  animation: upDown 4s ease-out 5 ;
+
+}
+
+#one {
+  transform: rotate(10deg);
+  animation-direction: alternate-reverse;
+  animation: upDown 5s ease-out 5 ;
+
+}
+#eight{
+  transform: rotate(30deg);
+  animation-direction: alternate-reverse;
+  animation: upDown 6s ease-out 5 ;
+
+}
+#three{
+  transform: rotate(50deg);
+  animation-direction: alternate-reverse;
+  animation: upDown 7s ease-out 5 ;
+
+}
+
+@keyframes upDown{
+  50%{top: 8em;}
+}
+
+
+
+

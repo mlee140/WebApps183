@@ -1,0 +1,57 @@
+/* 
+  CSE183 Assignment 2
+
+  CSS for Advanced Requirement 
+*/
+
+/* ( * ) means all elements  */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.letters {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  border-top: 0;
+  margin-top: 0;
+  font-size: 60pt;
+}
+
+.letters p {
+  width: 100px;
+  height: 180px;
+  background-color: navy;
+  color: white;
+}
+
+.letters p:hover {
+  background-color: white;
+  color: navy;
+}
+
+.numbers {
+  font-size: 40pt;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 10px solid yellow;
+  outline: none;
+}
+
+.numbers p {
+  width: 60px;
+  height: 60px;
+  color: yellow;
+  background-color: black;
+  text-align: center;
+  outline: none;
+}
+
+.numbers p:hover {
+  background-color: yellow;
+  color: black;
+}

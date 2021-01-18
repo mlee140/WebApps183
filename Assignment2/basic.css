@@ -1,0 +1,16 @@
+/* 
+  CSE183 Assignment 2
+
+  CSS for Basic Requirement 
+*/
+
+p {
+  text-align: center;
+  font-size: 40pt;
+  background-color: yellow;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  
+}
+
